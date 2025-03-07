@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "src/utils/interfaces", "src/pages/SeenIt.tsx", "../Assets/SeenIt.test.tsx"],
+  "include": ["src", "src/utils/interfaces", "src/pages/SeenIt.tsx", "../assets/SeenIt.test.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

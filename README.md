@@ -12,7 +12,7 @@ The GitHub Actions you will set up should only allow pull requests to the `devel
 
 ### 2. Organize GitHub Actions
 
-* Create a new folder called `.github` at the root of your directory and another folder inside of it called `workflows`. Then move the provided YAML files (`Assets/checking_tests.yml` & `Assets/deploy_to_render.yml`) into the `workflows` folder.
+* Create a new folder called `.github` at the root of your directory and another folder inside of it called `workflows`. Then move the provided YAML files (`assets/checking_tests.yml` & `assets/deploy_to_render.yml`) into the `workflows` folder.
 
 * Git add, git commit, and push up those changes to your `main` branch.
 
@@ -80,7 +80,7 @@ The GitHub Actions you will set up should only allow pull requests to the `devel
 
 ### 6. Test and Fix Bugs
 
-* Move the failing `Assets/SeenIt.test.tsx` file into your `tests` folder. `npm run test` and confirm the test is failing.
+* Move the failing `assets/SeenIt.test.tsx` file into your `tests` folder. `npm run test` and confirm the test is failing.
 
 * Push the changes to GitHub with the failing test included and attempt a pull request with `develop`. The `Checking Test` check should fail and not allow the pull request to be merged.
 
